@@ -1,3 +1,17 @@
-<!DOCTYPE html>
-
-<img src="/Internal storage/Download/Wendaaaa.png" style="max-width:100%" alt="Wenda Drawing">
+<form method="post" enctype="multipart/form-data">
+  <div>
+    <label for="image_uploads">Choose Images</label>
+    <input
+      type="file"
+      id="image_uploads"
+      name="image_uploads"
+      accept=".jpg, .jpeg, .png"
+      multiple />
+  </div>
+  <div class="preview">
+    <p>No Files Selected</p>
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
